@@ -1,0 +1,14 @@
+.week-filter {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.week-filter label {
+  font-weight: 600;
+}
+
+.week-filter select {
+  max-width: 180px;
+  margin-bottom: 0;
+}
