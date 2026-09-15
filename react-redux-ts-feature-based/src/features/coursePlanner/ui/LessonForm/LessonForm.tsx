@@ -1,9 +1,9 @@
 import './LessonForm.css';
 
 import { useState, type ChangeEvent } from 'react';
-import { useAppDispatch } from '../../hooks/hooks';
-import { addLesson } from '../../reducers/courseSlice';
-import { type Lesson } from '../../types/types';
+import { useAppDispatch } from '@/app/hooks/hooks';
+import { addLesson } from '../../courseSlice';
+import { type Lesson } from '../../types';
 
 const days: Lesson["day"][] = [
   "Måndag",

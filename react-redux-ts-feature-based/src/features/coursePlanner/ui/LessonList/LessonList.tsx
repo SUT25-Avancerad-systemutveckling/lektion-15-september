@@ -1,7 +1,7 @@
 import './LessonList.css';
 
-import { useAppDispatch, useAppSelector } from '../../hooks/hooks';
-import { toggleLesson } from '../../reducers/courseSlice';
+import { useAppDispatch, useAppSelector } from '@/app/hooks/hooks';
+import { toggleLesson } from '../../courseSlice';
 
 function LessonList() {
   const dispatch = useAppDispatch();

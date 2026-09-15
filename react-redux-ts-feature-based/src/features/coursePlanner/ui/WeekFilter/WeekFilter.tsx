@@ -1,7 +1,7 @@
 import './WeekFilter.css';
 
-import { useAppDispatch, useAppSelector } from '../../hooks/hooks';
-import { changeWeek } from '../../reducers/courseSlice';
+import { useAppDispatch, useAppSelector } from '@/app/hooks/hooks';
+import { changeWeek } from '../../courseSlice';
 
 function WeekFilter() {
   const dispatch = useAppDispatch();

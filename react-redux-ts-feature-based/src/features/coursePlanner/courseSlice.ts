@@ -1,5 +1,5 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
-import { type CoursePlannerState, type Lesson } from "../types/types";
+import { type CoursePlannerState, type Lesson } from "./types";
 
 const initialState: CoursePlannerState = {
   selectedWeek: 1,

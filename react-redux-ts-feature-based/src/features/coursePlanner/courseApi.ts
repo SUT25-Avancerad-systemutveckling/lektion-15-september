@@ -1,0 +1,1 @@
+// Här skulle alla fetch-anrop för course planner ligga

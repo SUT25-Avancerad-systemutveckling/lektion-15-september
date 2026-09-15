@@ -1,6 +1,5 @@
-import LessonForm from './components/LessonForm/LessonForm';
-import LessonList from './components/LessonList/LessonList';
-import WeekFilter from './components/WeekFilter/WeekFilter';
+import { LessonForm, LessonList, WeekFilter } from './features/coursePlanner';
+
 function App() {
   return (
     <main>
